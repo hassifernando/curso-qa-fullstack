@@ -1,0 +1,30 @@
+1-c * CORRETA
+2-b * CORRETA
+3-c * CORRETA
+4-e * CORRETA
+5-d * CORRETA
+6-d
+7-a
+8-d
+9-e
+10-c
+11-e  / correta c
+12-b / correta e
+13-d
+14-a
+15-e
+16-b
+17-d / CORRETA B (EXIT CRITERIA)
+18-b * CORRETA
+19-a / correta B 
+20-a / a resposta certa é  Technical specification / porém respondi  Both technical specification and functional specification/ OU SEJA ESTÁ MEIO CERTO
+21-e * CORRETA
+22-e * CORRETA
+23-c * EM UM PROJETO EU NÃO AUTOMATIZARIA OS TESTES DE REGRESSÃO POIS REALIZARIA ESSA TAREFA APÓS O PROJETO SER ENTREGUE.
+24-d * UM TESTE AUTOMATIZADO NÃO É FLEXÍVEL, POIS ELE SEMPRE IRÁ EXECUTAR A MESMA AÇÃO QUE FOR PROGRAMADA.
+25-d / correta c / está parcialmente correta
+26-b * TODAS AS ALTERNATIVAS
+27-e / correta B
+28-d * CORRETA / está correta pois a extensão é .mtb 
+29-a * Business Functions
+30-c / A RESPOSTA C PODE SER CONSIDERA MEIO CORRETA / POIS A CORRETA DE ACORDO COM O QUE VI NA WEB SERIA A RESPOSTA B
