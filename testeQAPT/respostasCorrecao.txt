@@ -10,10 +10,10 @@
 10-c * ERRADA / CORRETA D 80% | ESSA QUESTÃO NAS DEMAIS PROVAS, TEM UM GRÁFICO QUE TORNA MAIS SIMPLES A COMPREENSÃO * CONSIDERAÇÃO
 11-e * ERRADA / correta c
 12-b * ERRADA / correta e
-13-d * A CONFIRMAR
-14-a * A CONFIRMAR
-15-e * A CONFIRMAR
-16-b * A CONFIRMAR
+13-d * ERRADA | QUANDO O TESTE ESTÁ CONCLUÍDO ? CORRETA = B =  When there is enough information for sponsors to make an informed decision about release
+14-a * ERRADA  | Qual dos seguintes fatores influencia o esforço de teste envolvido na maioria dos projetos? CORRETA = B =  The quality of the information used to develop the tests
+15-e * CORRETA | ALPHA TEST
+16-b * ACHO QUE ESTÁ CORRETO | What is a test condition?
 17-d * ERRADA / CORRETA B (EXIT CRITERIA - CRITÉRIOS DE SAÍDA)
 18-b * CORRETA
 19-a * ERRADA / correta B 
@@ -28,3 +28,7 @@
 28-d * CORRETA (TALVEZ TENHA UM ERRO DE DIGITAÇÃO NA PERGUNTA / está correta pois a extensão é .mtb 
 29-a * ACHO QUE ESTÁ CORRETO | Qual NÃO é um recurso da Estrutura de Automação de Teste?  Resposta >> Business Functions
 30-c * PARCIAL/ A RESPOSTA C PODE SER CONSIDERA MEIO CORRETA / POIS A CORRETA DE ACORDO COM O QUE VI NA WEB SERIA A RESPOSTA B
+
+POSSÍVEIS CORRETAS: 19
+PARCIAL: 3
+ERRADAS: 8
