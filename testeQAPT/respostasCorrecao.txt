@@ -5,13 +5,13 @@
 05-d * CORRETA
 06-d * DISCURSIVA | QUAL A DIFERENÇA ENTRE RETESTE E TESTE DE REGRESSÃO?
 07-a * DISCURSIVA | Qual é a gravidade e a prioridade do bug?
-08-d * POSSIVELMENTE CORRETO | opção d) 58, 74, 80 por quê 58 é abaixo de 60 = reprovado , maior que 74 é maior que 60 e menor que 80 = pass, 80 é maior ou igual a 80 = distinção
-09-e * POSSIVELMENTE CORRETO | Qual é a diferença entre verificação e validação? | assinalei todas as opções 
-10-c * ERRADA / CORRETA D 80% | ESSA QUESTÃO NAS DEMAIS PROVAS, TEM UM GRÁFICO QUE TORNA MAIS SIMPLES A COMPREENSÃO. Conferi após a prova.
+08-d * POSSIVELMENTE CORRETO | opção d) 58, 74, 80 por quê 58 é abaixo de 60 = reprovado¹ , maior que 74 é maior que 60 e menor que 80 = pass², 80 é maior ou igual a 80 = distinção³
+09-e * POSSIVELMENTE CORRETO | Qual é a diferença entre verificação e validação? | assinalei todas as opções pois todas as opções apresentam afirmações verdadeiras.
+10-c * ERRADA / CORRETA D 80% | ESSA QUESTÃO NAS DEMAIS PROVAS, TEM UM GRÁFICO QUE TORNA MAIS SIMPLES A COMPREENSÃO. Conferi após a prova em uma prova que aplicada para tirar certificações.
 11-e * ERRADA / correta c MINHA RESPOSTA: System testing | RESPOSTA CORRETA: Independent testing
 12-b * ERRADA / correta e MINHA RESPOSTA: "ERROR" | RESPOSTA CORRETA: "Defeito/Defect".
-13-d * ERRADA | QUANDO O TESTE ESTÁ CONCLUÍDO ? CORRETA = B =  When there is enough information for sponsors to make an informed decision about release
-14-a * ERRADA  | Qual dos seguintes fatores influencia o esforço de teste envolvido na maioria dos projetos? CORRETA = B =  The quality of the information used to develop the tests
+13-d * ERRADA | QUANDO O TESTE ESTÁ CONCLUÍDO ? CORRETA = B =  When there is enough information for sponsors to make an informed decision about release | MINHA RESPOSTA: When every data combination has been exercised successfully 
+14-a * PARCIAL | Qual dos seguintes fatores influencia o esforço de teste envolvido na maioria dos projetos? CORRETA = B =  The quality of the information used to develop the tests MINHA RESPOSTA =  All the answers 
 15-e * CORRETA | ALPHA TEST
 16-b * ACHO QUE ESTÁ CORRETO | What is a test condition?
 17-d * ERRADA / CORRETA B (EXIT CRITERIA - CRITÉRIOS DE SAÍDA) minha resposta: Test team training
@@ -30,5 +30,16 @@
 30-c * PARCIAL | MINHA RESPOSTA = the tool’s usability and convenience and the scope of the project | RESPOSTA CORRETA: the scope of the project
 
 POSSÍVEIS CORRETAS: 14 + (5 QUESTÕES DISCURSIVAS)
-PARCIAL: 3
-ERRADAS: 8
+PARCIAL: 4
+ERRADAS: 7
+
+30 = pesquisando no google teria encontrado a resposta (primeiros resultados já apontavam a resposta).
+27 = pesquisando no google teria encontrado a resposta (primeiros resultados já apontavam a resposta).
+25 = pesquisando no google teria encontrado a resposta (primeiros resultados já apontavam a resposta).
+20 = Achei a resposta apenas em questionários.
+19 = Achei a resposta apenas em questionários.
+17 = Achei a resposta apenas em questionários.
+14 = Parcialmente correta.
+13 = Achei a resposta em questionário, porém respondi com um pensamento técnico, não pensei de uma forma gerencial.
+12 = Achei a resposta apenas em questionários.
+11 = Achei a resposta apenas em questionários.
