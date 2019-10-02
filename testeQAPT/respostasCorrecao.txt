@@ -5,30 +5,30 @@
 05-d * CORRETA
 06-d * DISCURSIVA | QUAL A DIFERENÇA ENTRE RETESTE E TESTE DE REGRESSÃO?
 07-a * DISCURSIVA | Qual é a gravidade e a prioridade do bug?
-08-d * ACHO QUE ESTÁ CORRETO | opção d) 58, 74, 80 por quê 58 é abaixo de 60 = reprovado , maior que 74 é maior que 60 e menor que 80 = pass, 80 é maior ou igual a 80 = distinção
-09-e * ACHO QUE ESTÁ CORRETO | Qual é a diferença entre verificação e validação? | assinalei todas as opções 
-10-c * ERRADA / CORRETA D 80% | ESSA QUESTÃO NAS DEMAIS PROVAS, TEM UM GRÁFICO QUE TORNA MAIS SIMPLES A COMPREENSÃO * CONSIDERAÇÃO
-11-e * ERRADA / correta c
-12-b * ERRADA / correta e
+08-d * POSSIVELMENTE CORRETO | opção d) 58, 74, 80 por quê 58 é abaixo de 60 = reprovado , maior que 74 é maior que 60 e menor que 80 = pass, 80 é maior ou igual a 80 = distinção
+09-e * POSSIVELMENTE CORRETO | Qual é a diferença entre verificação e validação? | assinalei todas as opções 
+10-c * ERRADA / CORRETA D 80% | ESSA QUESTÃO NAS DEMAIS PROVAS, TEM UM GRÁFICO QUE TORNA MAIS SIMPLES A COMPREENSÃO. Conferi após a prova.
+11-e * ERRADA / correta c MINHA RESPOSTA: System testing | RESPOSTA CORRETA: Independent testing
+12-b * ERRADA / correta e MINHA RESPOSTA: "ERROR" | RESPOSTA CORRETA: "Defeito/Defect".
 13-d * ERRADA | QUANDO O TESTE ESTÁ CONCLUÍDO ? CORRETA = B =  When there is enough information for sponsors to make an informed decision about release
 14-a * ERRADA  | Qual dos seguintes fatores influencia o esforço de teste envolvido na maioria dos projetos? CORRETA = B =  The quality of the information used to develop the tests
 15-e * CORRETA | ALPHA TEST
 16-b * ACHO QUE ESTÁ CORRETO | What is a test condition?
-17-d * ERRADA / CORRETA B (EXIT CRITERIA - CRITÉRIOS DE SAÍDA)
+17-d * ERRADA / CORRETA B (EXIT CRITERIA - CRITÉRIOS DE SAÍDA) minha resposta: Test team training
 18-b * CORRETA
-19-a * ERRADA / correta B 
-20-a * PARCIAL / a resposta certa é  Technical specification / porém respondi  Both technical specification and functional specification/ OU SEJA ESTÁ MEIO CERTO
+19-a * ERRADA / correta B = Faults in the requirements MINHA RESPOSTA a) Too few comments
+20-a * PARCIAL / REPOSTA CORRETA Technical specification / MINHA RESPOSTA Both technical specification and functional specification
 21-e * CORRETA
 22-e * CORRETA
 23-c * DISCURSIVA * EM UM PROJETO EU NÃO AUTOMATIZARIA OS TESTES DE REGRESSÃO POIS REALIZARIA ESSA TAREFA APÓS O PROJETO SER ENTREGUE.
 24-d * DISCURSIVA * UM TESTE AUTOMATIZADO NÃO É FLEXÍVEL, POIS ELE SEMPRE IRÁ EXECUTAR A MESMA AÇÃO QUE FOR PROGRAMADA.
-25-d * PARCIAL / correta c / está parcialmente correta
+25-d * PARCIAL / CORRETA c) HTML name, HTML id, CSS locators and XPath locators MINHA RESPOSTA d) XPath locators and HTML name and id, FICOU DE FORA CSS LOCATORS
 26-b * DISCURSIVA * TODAS AS ALTERNATIVAS
-27-e * ERRADA / correta B
-28-d * CORRETA (TALVEZ TENHA UM ERRO DE DIGITAÇÃO NA PERGUNTA / está correta pois a extensão é .mtb 
-29-a * ACHO QUE ESTÁ CORRETO | Qual NÃO é um recurso da Estrutura de Automação de Teste?  Resposta >> Business Functions
-30-c * PARCIAL/ A RESPOSTA C PODE SER CONSIDERA MEIO CORRETA / POIS A CORRETA DE ACORDO COM O QUE VI NA WEB SERIA A RESPOSTA B
+27-e * ERRADA / correta B * QUESTÕES SOBRE FRAMEWORKS, DE ME CONFUNDI PELO FATO DE ATUAR COM TESTES EM UMA EQUIPE ÁGIL, ACHEI QUE ESTARIA CORRETO.
+28-d * CORRETA (TALVEZ TENHA UM ERRO DE DIGITAÇÃO NA PERGUNTA / está correta pois a extensão CORRETA é .mtb e na questão é mencionado .mbt
+29-a * POSSIVELMENTE CORRETO | Qual NÃO é um recurso da Estrutura de Automação de Teste?  Resposta >> Business Functions
+30-c * PARCIAL | MINHA RESPOSTA = the tool’s usability and convenience and the scope of the project | RESPOSTA CORRETA: the scope of the project
 
-POSSÍVEIS CORRETAS: 19
+POSSÍVEIS CORRETAS: 14 + (5 QUESTÕES DISCURSIVAS)
 PARCIAL: 3
 ERRADAS: 8
