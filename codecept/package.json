@@ -1,0 +1,20 @@
+{
+  "name": "codecept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "talkdesk": "codeceptjs run -c ./codecept-conf/talkdesk.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^2.3.5",
+    "webdriverio": "^5.16.6"
+  },
+  "dependencies": {
+    "@wdio/selenium-standalone-service": "^5.16.5"
+  }
+}
