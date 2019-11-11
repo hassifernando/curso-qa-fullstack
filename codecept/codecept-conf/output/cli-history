@@ -2,3 +2,7 @@
 
 <<< Recorded commands on Mon Nov 11 2019 13:46:22 GMT-0200 (GMT-02:00)
 I.pressKey('Enter')
+
+<<< Recorded commands on Mon Nov 11 2019 18:49:56 GMT-0200 (GMT-02:00)
+I.seeElement('//img[@alt="ibm"]/ancestor::div[contains(@class, "logo__wrapper col-6 col-sm-4 col-md col-xl -gutter-bottom")]')
+I.seeElement('//img[@alt="ibm"]/ancestor::div[contains(@class, "logo__wrapper col-6 col-sm-4 col-md col-xl -gutter-bottom")]')
