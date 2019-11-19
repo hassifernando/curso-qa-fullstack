@@ -7,7 +7,7 @@ Feature('@HOME - @AUTOMATIONPRACTICE');
  * Add to cart
  * Checkout
  */
-Scenario('LOGIN TEST', async function (I, automationPractice) {
+Scenario('Filter and buy two grid products', async function (I, automationPractice) {
     
     I.amOnPage('http://automationpractice.com/index.php');
     automationPractice.loginPage(logindata);
