@@ -30,9 +30,9 @@ module.exports = function () {
             },
 
             addProductsToCart: function (parameters) {
-                let XPATH_POSITIONADDTOCART_SPAN = `//*[@id="center_column"]/ul/li[${parameters.positionsGridAddToCart}]/descendant::span[text()="Add to cart"]`;
+                let XPATH_POSITIONADDTOCART_SPAN = `//*[@id="center_column"]/ul/li[${parameters}]/descendant::span[text()="Add to cart"]`;
                 I.wait(1);
-                I.retry({ retries: 20, minTimeout: 10 }).moveCursorTo(`//*[@id="center_column"]/ul/li[${parameters.positionsGridAddToCart}]/descendant::img`);
+                I.retry({ retries: 20, minTimeout: 10 }).moveCursorTo(`//*[@id="center_column"]/ul/li[${parameters}]/descendant::img`);
                 I.retry({ retries: 20, minTimeout: 10 }).click(XPATH_POSITIONADDTOCART_SPAN);
                 I.retry({ retries: 20, minTimeout: 10 }).see('Product successfully added to your shopping cart');
                 I.retry({ retries: 20, minTimeout: 10 }).click('Continue shopping');
