@@ -8,13 +8,27 @@ Feature('@HOME - @AUTOMATIONPRACTICE');
  * Checkout
  */
 Scenario('Filter and buy two grid products', async function (I, automationPractice) {
-    
+    //enter at page
     I.amOnPage('http://automationpractice.com/index.php');
+    //login with object
     automationPractice.loginPage(logindata);
-    productSelect.positionsGridAddToCart.forEach((value, index) => {
-        automationPractice.searchProduct(productSearch);
-        automationPractice.addProductsToCart(productSelect.positionsGridAddToCart[index]);
-    })
+    //search and add to cart with arrays
+    productSearch.productName.forEach((value, index) => {
+        automationPractice.searchProduct(productSearch.productName[index]);
+        productSearch.positionsGridAddToCart.forEach((value, index) => {
+            automationPractice.addProductsToCart(productSearch.positionsGridAddToCart[index]);
+        })
+    });
+    let quantidadeProdutos = productSearch.positionsGridAddToCart.length;
+    console.log(quantidadeProdutos);
+    pause();
+    //checkout
+    I.click('Cart');
+    I.click('//span[text()="Proceed to checkout"]');
+    I.click('//span[text()="Proceed to checkout"]');
+    I.checkOption('#cgv');
+    I.click('//span[text()="Proceed to checkout"]');
+
 });
 
 var logindata = {
@@ -24,9 +38,7 @@ var logindata = {
 }
 
 var productSearch = {
-    productName: 'Printed'
+    productName: ['Printed'],
+    positionsGridAddToCart: ["1", "3", "4"]
 }
 
-var productSelect = {
-    positionsGridAddToCart: ["1","3","4"]
-}

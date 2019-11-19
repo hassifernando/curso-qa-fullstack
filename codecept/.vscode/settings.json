@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "window.zoomLevel": -1,
+    "explorer.confirmDelete": false
+}
