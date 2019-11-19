@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "talkdesk": "codeceptjs run --steps -c ./codecept-conf/talkdesk.js"
+    "talkdesk": "codeceptjs run --steps -c ./codecept-conf/talkdesk.js",
+    "automationpractice": "codeceptjs run --steps -c ./codecept-conf/automationPractice.js"
   },
   "keywords": [],
   "author": "",

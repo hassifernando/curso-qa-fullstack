@@ -6,3 +6,26 @@ I.pressKey('Enter')
 <<< Recorded commands on Mon Nov 11 2019 18:49:56 GMT-0200 (GMT-02:00)
 I.seeElement('//img[@alt="ibm"]/ancestor::div[contains(@class, "logo__wrapper col-6 col-sm-4 col-md col-xl -gutter-bottom")]')
 I.seeElement('//img[@alt="ibm"]/ancestor::div[contains(@class, "logo__wrapper col-6 col-sm-4 col-md col-xl -gutter-bottom")]')
+
+<<< Recorded commands on Tue Nov 19 2019 01:59:23 GMT-0200 (GMT-02:00)
+I.click('Search')
+I.click('//*[@id="center_column"]/ul/li[1]/div/div[2]/div[2]/a[1]/span')
+I.click('//*[@id="center_column"]/ul/li[1]/descendant::span[text()="Add to cart"]')
+I.click('Continue shopping')
+
+<<< Recorded commands on Tue Nov 19 2019 02:13:41 GMT-0200 (GMT-02:00)
+I.scrollTo('//*[@id="center_column"]/ul/li[1]/div/div[2]/div[2]/a[1]/span')
+I.scrollTo('//*[@id="center_column"]/ul/li[1]/descendant::span[text()="Add to cart"]')
+
+<<< Recorded commands on Tue Nov 19 2019 02:20:37 GMT-0200 (GMT-02:00)
+I.scrollTo('//*[@id="center_column"]/ul/li[1]/div/div[2]/div[2]/a[1]/span')
+I.scrollTo('//*[@id="center_column"]/ul/li[1]/descendant::span[text()="Add to cart"]')
+I.scrollTo('//*[@id="center_column"]/ul/li[1]/descendant::span[text()="Add to cart"]')
+
+<<< Recorded commands on Tue Nov 19 2019 02:29:41 GMT-0200 (GMT-02:00)
+I.scrollTo('//*[@id="center_column"]/ul/li[1]')
+I.scrollTo('//*[@id="center_column"]/ul/li[4]')
+I.scrollTo('//*[@id="center_column"]/ul/li[1]')
+
+<<< Recorded commands on Tue Nov 19 2019 02:34:32 GMT-0200 (GMT-02:00)
+I.moveCursorTo('//*[@id="center_column"]/ul/li[1]/descendant::img')
