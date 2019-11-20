@@ -46,7 +46,14 @@ module.exports = function () {
             I.retry({ retries: 20, minTimeout: 10 }).see('Product successfully added to your shopping cart');
             I.retry({ retries: 20, minTimeout: 10 }).click('Continue shopping');
         },
-        checkoutDefault: function (parameters) {
+
+        /**
+         * Function to perform a simple checkout and finalize the purchase.
+         * @param {object} parameters 
+         * positionsGridAddToCart: string array
+         */
+        
+            checkoutDefault: function (parameters) {
             let quantidadeProdutos = parameters.positionsGridAddToCart.length; 
 
             I.click('Cart');
