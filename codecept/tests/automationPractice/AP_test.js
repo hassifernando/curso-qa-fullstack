@@ -1,11 +1,11 @@
 
-Feature('@HOME - @AUTOMATIONPRACTICE');
+Feature('@AUTOMATIONPRACTICE');
 /**
  * Login at page http://automationpractice.com/index.php
  * Search products
- * Select the itens 1 and 3 of grid
+ * Select the itens 1, 3, 4 of grid
  * Add to cart
- * Checkout
+ * Checkout and Finish the order.
  */
 Scenario('Filter and buy two grid products', async function (I, automationPractice) {
     //enter at page
@@ -18,17 +18,13 @@ Scenario('Filter and buy two grid products', async function (I, automationPracti
         productSearch.positionsGridAddToCart.forEach((value, index) => {
             automationPractice.addProductsToCart(productSearch.positionsGridAddToCart[index]);
         })
-    });
-    let quantidadeProdutos = productSearch.positionsGridAddToCart.length;
-    console.log(quantidadeProdutos);
-    pause();
-    //checkout
-    I.click('Cart');
-    I.click('//span[text()="Proceed to checkout"]');
-    I.click('//span[text()="Proceed to checkout"]');
-    I.checkOption('#cgv');
-    I.click('//span[text()="Proceed to checkout"]');
+    });        
+    //checkout default, next, next, finish
+    automationPractice.checkoutDefault(productSearch);
+});
 
+AfterSuite(async function (I) {
+   I.click('Sign out');
 });
 
 var logindata = {
@@ -41,4 +37,3 @@ var productSearch = {
     productName: ['Printed'],
     positionsGridAddToCart: ["1", "3", "4"]
 }
-
