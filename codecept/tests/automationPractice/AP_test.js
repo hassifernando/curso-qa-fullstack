@@ -7,7 +7,7 @@ Feature('@AUTOMATIONPRACTICE');
  * Add to cart
  * Checkout and Finish the order.
  */
-Scenario('Filter and buy two grid products', async function (I, automationPractice) {
+Scenario('Filter and buy 3 grid products', async function (I, automationPractice) {
     //enter at page
     I.amOnPage('http://automationpractice.com/index.php');
     //login with object
