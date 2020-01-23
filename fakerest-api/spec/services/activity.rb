@@ -10,4 +10,8 @@ class ApiActivity
   def self.find(activity_id)
     get("/Activities/" + activity_id.to_s)
   end
+
+  def self.findAll
+    get("/Activities")
+  end
 end
