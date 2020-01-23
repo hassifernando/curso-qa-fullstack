@@ -6,4 +6,8 @@ class ApiActivity
   def self.save(activity)
     post("/Activities", body: activity.to_json)
   end
+
+  def self.find(activity_id)
+    get("/Activities/" + activity_id.to_s)
+  end
 end
